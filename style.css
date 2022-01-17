@@ -1,0 +1,5600 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+
+
+
+/*Response Webpage*/
+/*Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 4px 10px 10px 5px rgba(24, 23, 23, 0.781);
+    background-color: #202020;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    font-size: 1vw;
+    border-radius: 3px;
+}
+
+a.active{
+    color:  #F79621;
+    transition: .5s;
+}
+
+a:hover{
+   color: rgba(176, 183, 211, 0.842);
+}
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo {
+    width: 28%;
+}
+
+/*Form Serch Section*/
+/* .form-1{
+    position: relative;
+    right: 10%;
+} */
+
+.form-search {
+    padding: 3% 8%;
+    border-bottom: 1px solid white !important;
+    outline: none;
+    border: none;
+    width: auto;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: 0.2s all;
+    color: white !important;
+    text-align: center;
+    background-color: transparent;
+}
+
+.form-search:focus{
+    background-color: rgba(253, 253, 253, 0.781);
+}
+
+.form-button {
+    margin: 2% 5%;
+    border-radius: 2px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.form-button:hover{
+    color: rgba(176, 183, 211, 0.842);;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*First Page start*/
+/*Bg image*/
+
+.container {
+    height: 100vh;
+    background: url(./bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    
+}
+
+.container h3{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container p2{
+    color: white;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.learnmore {
+    padding: 10px 60px;
+    background-color: blanchedalmond;
+    border: none;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.learnmore:hover{
+    outline: 1px solid white;
+    background-color: rgb(148, 148, 148);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*3rd Page Start*/
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container3Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 50vh;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+
+
+.container3Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.container3Text > p2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.containerPngs {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.containerPngText {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.containerPngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.containerPngText > p2{
+    font-size: 1vw;
+    font-weight: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*4rth page start*/
+.bg2 {
+    width: 100%;
+    height: 100vh;
+    background: url(./bg/bg\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.bgtext2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgtext2 > h3 {
+    margin-top: 10%;
+    color: white;
+    font-size: 4vw;
+    font-weight: 1000;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2 > p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.5vw;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn:hover{
+    background-color: rgba(223, 211, 211, 0.349);
+    color: white;
+}
+
+
+/*Number Counting*/
+.ContainerForCounter {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter {
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.textforCounter h4{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*5th Page start*/
+
+/*texting front portfolio*/
+/*Upper wali side*/
+.textforPortfolio {
+    padding-top: 5%;
+    background-color: rgb(216, 216, 206);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+.textforPortfolio > h2 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 3vw;
+}
+
+.textforPortfolio > p2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+/*Main container*/
+.container-5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container5Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: 1px solid rgba(196, 185, 185, 0.842);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.container5Divs:hover{
+    transform: translate(0%,-5%);
+    box-shadow: 4px 4px 40px 10px rgba(141, 137, 137, 0.795);
+}
+
+.container5Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.container5Text > p2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.container5Pngs > img{
+     width: 100%;
+}
+
+.container5PngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.container5PngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container5PngText > p2{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+}
+
+.container5btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btnstyleContainer5{
+    display: flex;
+    justify-content: center;
+    padding: 5px 40px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnstyleContainer5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*6th Page start*/
+.containerContact {
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #073652;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding-bottom: 10% !important;
+}
+
+
+
+.textPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.textPortfolio > h2 {
+    position: relative;
+    color: white;
+    font-size: 3vw;
+}
+
+
+.Formsubscribe {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    position: relative; 
+    top: -20%;
+    width: 50%;
+}
+
+.formTextSubs {
+    background-color: rgba(238, 222, 222, 0.986);
+    position:absolute;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.formSubsBtn {
+    position: absolute;
+    right: 8%;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.formSubsBtn:hover{
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.Containerfooter{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+    background-color: #202020;
+
+}
+
+.logoandInformation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.logoandInformation p2 {
+    position: relative;
+    top: -10%;
+    width: 60%;
+    padding-left: 8%;
+    color: white;
+    font-size: 1vw;
+}
+
+
+
+.logoandInformation  img {
+    position: relative;
+    top: -23%;
+    width: 400px;
+}
+
+
+.logoandInformation h3{
+    color: white;
+    font-size: 2vw;
+}
+
+
+.logoandInformation a{
+    width: 35%;
+    color: white;
+    font-size: 1vw;
+    padding: 4% 0%;
+    transition: 0.2s all;
+
+}
+
+.logoandInformation a:hover{
+    color: rgba(248, 248, 70, 0.774);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+/* .socialElement a{
+    display: flex;
+    flex-direction: row;
+} */
+
+.socialElement a {
+    padding: 5px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+}
+
+/*social links color dif*/
+
+/*Facebook*/
+.socialElement .facebook{
+     background-color:  #3B5998;
+}
+
+.socialElement .facebook:hover{
+    background-color: white;
+    color: #3B5998;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+
+/*Pinterest*/
+.socialElement .pinterest{
+    background-color: #DD4B39;
+}
+
+.socialElement .pinterest:hover{
+    background-color: white;
+    color: #DD4B39 !important;
+}
+
+
+/*Linkedin*/
+.socialElement .linkedin{
+    background-color: #007BB5;
+}
+
+.socialElement .linkedin:hover{
+    background-color: white;
+    color: #007BB5;
+}
+
+
+
+
+.socialElement p1{
+    padding-right: 10%;
+    color: white;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio page start 2nd Seperate*/
+.bannerPortfolio{
+    position: relative;
+}
+
+
+
+.bannerPortfolio img {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.bannerPortfolioText {
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bannerPortfolioText h3{
+    position: relative;
+    color: white;
+    font-size: 6vw;
+}
+
+.addressForBannerPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.addressForBannerPortfolio a{
+    position: relative;
+    font-size: 2vw;
+    color: white;
+}
+
+.addressForBannerPortfolio p2{
+    position: relative;
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+/*selector menu ul*/
+.selector {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.selector ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.selector ul li{
+    margin: 0px 5px;
+}
+
+.selector ul li a{
+    font-size: 1.5vw;
+    padding: 6px 30px;
+    background-color: #c4bdbdbb;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.selector ul li a:hover{
+    color: white;
+    background-color: #202020;
+}
+
+.selector ul li .activeMenu {
+    color: white;
+    background-color: #202020;
+}
+/*portfolio page end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact page start*/
+/*contact form*/
+.containerContact2 {
+  position: relative;
+  margin-top:-1%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  padding-bottom: 10%;
+}
+
+
+.ContactHeadingtext{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.ContactHeadingtext h3{
+    color: black;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+
+.contactDiv {
+    margin-top: -5%;
+    position: relative;
+    width: 40%;
+    height: 80vh;
+    padding: 100px 0px;
+}
+
+
+
+.contactDefault {
+    position: relative;
+    width: 80%;
+    padding: 10px 0px;
+    margin: 10px 40px;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(116, 113, 113, 0.432);
+    transition: 0.3s;
+    font-weight: bold;
+    color: white;
+}
+
+.contactDefault:focus{
+    border-radius: 5px;
+    background-color: rgba(209, 209, 209, 0.904);
+    border: 1px solid black;
+}
+
+.textarea {
+    margin: 10px 40px;
+    width: 80%;
+    height: 40vh;
+    font-weight: bold;
+    border: 1px solid rgba(116, 113, 113, 0.432);
+    border-radius: 10px;
+}
+
+.textarea:focus{
+    border: 1px solid black;
+    background-color: rgba(209, 209, 209, 0.904);
+}
+
+.contactBtnForm {
+    margin: 10px 40px;
+    padding: 10px 40px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contactBtnForm:hover {
+    background-color: #000000;
+    font-weight: bold;
+}
+
+
+
+/*2nd div setting*/
+
+.contactDiv h4{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.contactDiv p2{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About Osama page start*/
+.osamaContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.osamaElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.osamaElement h2 {
+   margin-top: 4%;
+   position: relative;
+   font-size: 5vw !important;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+}
+
+.osamaElement p{
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    font-size: 2vw !important;
+    font-weight: 800;
+    color: black;
+}
+
+.osamaImg {
+    display: flex;
+    justify-content: center;
+}
+
+.osamaImg > img{
+    margin-top: 5%;
+    width:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navbar Toggler*/
+@media (max-width: 1048px) {
+    nav ul {
+        display: block;
+        margin-right: 20px;
+        overflow: scroll;
+    }
+    nav a{
+        font-size: 3vh;
+    }
+}
+
+@media (max-width:1024px){
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+        overflow: scroll;
+    }
+    nav li{
+        display: block;
+        margin: 55px 0;
+        line-height: 10px;
+    }
+    nav a{
+        font-size: 2vh;
+    }
+    a.active, a:hover{
+        border: none;
+        color: rgb(72, 49, 206);
+    }
+    nav ul.show {
+        left: 0;
+    }
+
+    .form-search {
+     width: 20%;
+     padding: 2% 10%;
+               
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive for Tablet 768px*/
+@media screen and (max-width: 800px) {
+
+
+    .logo {
+        width: 300px;
+    }
+
+ /*First Page start*/
+/*Bg image*/
+
+.container {
+    height: 70vh;
+    background: url(./bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    
+}   
+    
+.container h3{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container p2{
+    color: white;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.learnmore {
+    padding: 10px 40px;
+    background-color: blanchedalmond;
+    border: none;
+    outline: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.learnmore:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+
+
+
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+  }
+
+
+
+
+  
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
+
+
+
+
+
+/*3rd Page Start*/
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container3Divs {
+    margin: 0% 2%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.container3Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.container3Text > p2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.containerPngs {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+
+
+.containerPngText {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.containerPngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size:2vw;
+}
+
+.containerPngText > p2{
+    font-size: 1vw;
+    font-weight: 1000;
+
+}
+
+
+
+/*4rth page start*/
+.bg2 {
+    width: 100%;
+    height: 70vh;
+    background: url(./bg/bg\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.bgtext2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgtext2 > h3 {
+    margin-top: 10%;
+    color: white;
+    font-size: 4vw;
+    font-weight: 1000;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2 > p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn:hover{
+    background-color: rgba(223, 211, 211, 0.349);
+    color: white;
+}
+
+
+
+
+  
+/*Number Counting*/
+.ContainerForCounter {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter > {
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.textforCounter {
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+/*5th Page start*/
+
+/*texting front portfolio*/
+/*Upper wali side*/
+.textforPortfolio {
+    padding-top: 5%;
+    background-color: rgb(216, 216, 206);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+.textforPortfolio > h2 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 3vw;
+}
+
+.textforPortfolio > p2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+/*Main container*/
+.container-5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container5Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: 1px solid rgba(196, 185, 185, 0.842);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.container5Divs:hover{
+    transform: translate(0%,-5%);
+    box-shadow: 4px 4px 40px 10px rgba(141, 137, 137, 0.795);
+}
+
+.container5Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.container5Text > p2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.container5Pngs > img{
+     width: 100%;
+}
+
+.container5PngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.container5PngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.container5PngText > p2{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+}
+
+.container5btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btnstyleContainer5{
+    display: flex;
+    justify-content: center;
+    padding: 2px 30px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnstyleContainer5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*6th Page start*/
+.containerContact {
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#073652;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding-bottom: 10% !important;
+}
+
+
+
+.textPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30%;
+    width: 100%;
+}
+
+.textPortfolio > h2 {
+    position: relative;
+    color: white;
+    font-size: 3vw;
+}
+
+
+.Formsubscribe {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    position: relative; 
+    top: -20%;
+    width: 50%;
+}
+
+.formTextSubs {
+    background-color: rgba(238, 222, 222, 0.986);
+    position:absolute;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.formSubsBtn {
+    position: absolute;
+    right: 6%;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.formSubsBtn:hover{
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+
+
+
+/*Footer*/
+.Containerfooter{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 40vh;
+    background-color: #202020;
+}
+
+.logoandInformation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.logoandInformation p2 {
+    position: relative;
+    top: -10%;
+    width: 60%;
+    padding-left: 8%;
+    color: white;
+    font-size: 1vw;
+}
+
+
+
+.logoandInformation  img {
+    position: relative;
+    top: -23%;
+    width: 200px;
+}
+
+
+.logoandInformation h3{
+    color: white;
+    font-size: 2vw;
+}
+
+
+.logoandInformation a{
+    width: 35%;
+    color: white;
+    font-size: 1vw;
+    padding: 4% 0%;
+    transition: 0.2s all;
+
+}
+
+.logoandInformation a:hover{
+    color: rgba(248, 248, 70, 0.774);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+/* .socialElement a{
+    display: flex;
+    flex-direction: row;
+} */
+
+.socialElement a {
+    padding: 5px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+    font-size: 1vw;
+}
+
+/*social links color dif*/
+
+/*Facebook*/
+.socialElement .facebook{
+     background-color:  #3B5998;
+}
+
+.socialElement .facebook:hover{
+    background-color: white;
+    color: #3B5998;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+
+/*Pinterest*/
+.socialElement .pinterest{
+    background-color: #DD4B39;
+}
+
+.socialElement .pinterest:hover{
+    background-color: white;
+    color: #DD4B39 !important;
+}
+
+
+/*Linkedin*/
+.socialElement .linkedin{
+    background-color: #007BB5;
+}
+
+.socialElement .linkedin:hover{
+    background-color: white;
+    color: #007BB5;
+}
+
+
+
+
+.socialElement p1{
+    padding-right: 10%;
+    color: white;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio page start 2nd Seperate*/
+
+.bannerPortfolio {
+    position: relative;
+}
+
+
+.bannerPortfolio img {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.bannerPortfolioText {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bannerPortfolioText h3{
+    position: relative;
+    color: white;
+    font-size: 8vw;
+}
+
+.addressForBannerPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.addressForBannerPortfolio a{
+    position: relative;
+    font-size: 3vw;
+    color: white;
+}
+
+.addressForBannerPortfolio p2{
+    position: relative;
+    font-size: 1vw;
+    color: white;
+}
+
+
+
+
+/*selector menu ul*/
+.selector {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.selector ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.selector ul li{
+    margin: 0px 5px;
+}
+
+.selector ul li a{
+    font-size: 1.5vw;
+    padding: 6px 10px;
+    background-color: #c4bdbdbb;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.selector ul li a:hover{
+    color: white;
+    background-color: #202020;
+}
+
+.selector ul li .activeMenu {
+    color: white;
+    background-color: #202020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact page start*/
+/*contact form*/
+.containerContact2 {
+    position: relative;
+    margin-top:-1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    padding-bottom: 10%;
+  }
+  
+  
+  .ContactHeadingtext{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 5%;
+  }
+  
+  .ContactHeadingtext h3{
+      color: black;
+      font-weight: bold;
+      font-size: 4vw;
+  }
+  
+  
+  .contactDiv {
+      margin-top: -5%;
+      position: relative;
+      width: 40%;
+      height: 50vh;
+      padding: 100px 0px;
+  }
+  
+  
+  
+  .contactDefault {
+      position: relative;
+      width: 80%;
+      padding: 10px 0px;
+      margin: 10px 40px;
+      color: white;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(116, 113, 113, 0.432);
+      transition: 0.3s;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .contactDefault:focus{
+      border-radius: 5px;
+      background-color: rgba(209, 209, 209, 0.904);
+      border: 1px solid black;
+  }
+  
+  .textarea {
+      margin: 10px 40px;
+      width: 80%;
+      height: 20vh;
+      font-weight: bold;
+      border: 1px solid rgba(116, 113, 113, 0.432);
+      border-radius: 10px;
+  }
+  
+  .textarea:focus{
+      border: 1px solid black;
+      background-color: rgba(209, 209, 209, 0.904);
+  }
+  
+  .contactBtnForm {
+      margin: 10px 40px;
+      padding: 10px 40px;
+      background-color: #ff8c00;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1.5vw;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  
+  .contactBtnForm:hover {
+      background-color: #000000;
+      font-weight: bold;
+  }
+
+
+  
+/*2nd div setting*/
+
+.contactDiv h4{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.contactDiv p2{
+    color: black;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About Osama page start*/
+.osamaContainer {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.osamaElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.osamaElement h2 {
+   margin-top: 4%;
+   position: relative;
+   font-size: 5vw !important;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+}
+
+.osamaElement p{
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    font-size: 3vw !important;
+    font-weight: 800;
+    color: black;
+}
+
+.osamaImg {
+    display: flex;
+    justify-content: center;
+}
+
+.osamaImg > img{
+    margin-top: 5%;
+    width:50%;
+}
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive for Mobile L 425px*/
+@media screen and (max-width: 425px) {
+
+    .logo {
+        width: 300px;
+    }
+
+ /*First Page start*/
+/*Bg image*/
+
+.container {
+    height: 50vh;
+    background: url(./bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    
+}   
+    
+
+.container h3{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container p2{
+    color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+
+.learnmore {
+    padding: 5px 20px;
+    background-color: blanchedalmond;
+    border: none;
+    outline: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    top: 70%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.learnmore:hover{
+    background-color: rgb(148, 148, 148);
+   }
+
+
+
+
+
+
+
+
+
+
+   
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    color: black;
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*3rd Page Start*/
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container3Divs {
+    margin: 3% 2%;
+    display: flex;
+    justify-content: center;
+    width:30%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.container3Text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.container3Text > p2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.containerPngs > img{
+    margin-left: 35%;
+     width: 10vw;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+.containerPngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.containerPngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.containerPngText > p2{
+    margin-top: 6% !important;
+    font-size: 2vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ /*4rth page start*/
+.bg2 {
+    width: 100%;
+    height: 80vh;
+    background: url(./bg/bg\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.bgtext2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgtext2 > h3 {
+    margin-top: 15%;
+    color: white;
+    font-size: 6vw;
+    font-weight: 1000;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2 > p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn:hover{
+    background-color: rgba(223, 211, 211, 0.349);
+    color: white;
+}
+
+
+
+  
+/*Number Counting*/
+.ContainerForCounter {
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter  {
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+}
+
+.textforCounter {
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*5th Page start*/
+
+/*texting front portfolio*/
+/*Upper wali side*/
+.textforPortfolio {
+    padding-top: 5%;
+    background-color: rgb(216, 216, 206);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+.textforPortfolio > h2 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 3vw;
+}
+
+.textforPortfolio > p2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+/*Main container*/
+.container-5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container5Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: 1px solid rgba(196, 185, 185, 0.842);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.container5Divs:hover{
+    transform: translate(0%,-5%);
+    box-shadow: 4px 4px 40px 10px rgba(141, 137, 137, 0.795);
+}
+
+.container5Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.container5Text > p2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.container5Pngs > img{
+     width: 100%;
+}
+
+.container5PngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.container5PngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.container5PngText > p2{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.container5btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btnstyleContainer5{
+    display: flex;
+    justify-content: center;
+    padding: 3px 10px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnstyleContainer5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+/*6th Page start*/
+.containerContact {
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#073652;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding-bottom: 10% !important;
+}
+
+
+
+.textPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.textPortfolio > h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top:15%;
+    color: white;
+    font-size: 5vw;
+}
+
+
+.Formsubscribe {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    position: relative; 
+    top: -20%;
+    width: 100%;
+}
+
+.formTextSubs {
+    background-color: rgba(238, 222, 222, 0.986);
+    position:absolute;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.formSubsBtn {
+    position: absolute;
+    right: 6%;
+    padding: 10px 10px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.formSubsBtn:hover{
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+/*Footer*/
+.Containerfooter{
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50vh;
+    background-color: #202020;
+}
+
+.logoandInformation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.logoandInformation p2 {
+    position: relative;
+    top: -10%;
+    width: 60%;
+    padding-left: 8%;
+    color: white;
+    font-size: 1.5vw;
+}
+
+
+
+.logoandInformation  img {
+    position: relative;
+    top: -23%;
+    width: 100px;
+}
+
+
+.logoandInformation h3{
+    color: white;
+    font-size: 2vw;
+}
+
+
+.logoandInformation a{
+    width: 70%;
+    color: white;
+    font-size: 2vw;
+    padding: 4% 0%;
+    transition: 0.2s all;
+
+}
+
+.logoandInformation a:hover{
+    color: rgba(248, 248, 70, 0.774);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+/* .socialElement a{
+    display: flex;
+    flex-direction: row;
+} */
+
+.socialElement a {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+    font-size: 2vw;
+}
+
+/*social links color dif*/
+
+/*Facebook*/
+.socialElement .facebook{
+     background-color:  #3B5998;
+}
+
+.socialElement .facebook:hover{
+    background-color: white;
+    color: #3B5998;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+
+/*Pinterest*/
+.socialElement .pinterest{
+    background-color: #DD4B39;
+}
+
+.socialElement .pinterest:hover{
+    background-color: white;
+    color: #DD4B39 !important;
+}
+
+
+/*Linkedin*/
+.socialElement .linkedin{
+    background-color: #007BB5;
+}
+
+.socialElement .linkedin:hover{
+    background-color: white;
+    color: #007BB5;
+}
+
+
+
+
+.socialElement p1{
+    padding-right: 10%;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio page start 2nd Seperate*/
+.bannerPortfolio {
+    position: relative;
+}
+
+
+.bannerPortfolio img {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-size: 100%;
+    filter: brightness(50%);
+}
+
+.bannerPortfolioText {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bannerPortfolioText h3{
+    position: relative;
+    color: white;
+    font-size: 6vw;
+}
+
+.addressForBannerPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.addressForBannerPortfolio a{
+    position: relative;
+    font-size: 3vw;
+    color: white;
+}
+
+.addressForBannerPortfolio p2{
+    position: relative;
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+
+
+/*selector menu ul*/
+.selector {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.selector ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.selector ul li{
+    margin: 0px 5px;
+}
+
+.selector ul li a{
+    font-size: 1.5vw;
+    padding: 6px 10px;
+    background-color: #c4bdbdbb;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.selector ul li a:hover{
+    color: white;
+    background-color: #202020;
+}
+
+.selector ul li .activeMenu {
+    color: white;
+    background-color: #202020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact page start*/
+/*contact form*/
+.containerContact2 {
+    position: relative;
+    margin-top:-1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    padding-bottom: 10%;
+  }
+  
+  
+  .ContactHeadingtext{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 5%;
+  }
+  
+  .ContactHeadingtext h3{
+      color: black;
+      font-weight: bold;
+      font-size: 3vw;
+  }
+  
+  
+  .contactDiv {
+      margin-top: -20%;
+      position: relative;
+      width: 40%;
+      height: 60vh;
+      padding: 100px 0px;
+  }
+  
+  
+  
+  .contactDefault {
+      position: relative;
+      width: 80%;
+      padding: 10px 0px;
+      margin: 10px 40px;
+      color: white;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(116, 113, 113, 0.432);
+      transition: 0.3s;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .contactDefault:focus{
+      border-radius: 5px;
+      background-color: rgba(209, 209, 209, 0.904);
+      border: 1px solid black;
+  }
+  
+  .textarea {
+      margin: 10px 40px;
+      width: 80%;
+      height: 20vh;
+      font-weight: bold;
+      border: 1px solid rgba(116, 113, 113, 0.432);
+      border-radius: 10px;
+  }
+  
+  .textarea:focus{
+      border: 1px solid black;
+      background-color: rgba(209, 209, 209, 0.904);
+  }
+  
+  .contactBtnForm {
+      margin: 10px 40px;
+      padding: 10px 40px;
+      background-color: #ff8c00;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size:2.5vw;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  
+  .contactBtnForm:hover {
+      background-color: #000000;
+      font-weight: bold;
+  }
+
+
+  
+/*2nd div setting*/
+
+.contactDiv h4{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.contactDiv p2{
+    color: black;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+/*About Osama page start*/
+.osamaContainer {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.osamaElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.osamaElement h2 {
+   margin-top: 4%;
+   position: relative;
+   font-size: 5vw !important;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+}
+
+.osamaElement p{
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    font-size: 3vw !important;
+    font-weight: 800;
+    color: black;
+}
+
+.osamaImg {
+    display: flex;
+    justify-content: center;
+}
+
+.osamaImg > img{
+    margin-top: 5%;
+    width:50%;
+}
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive for Mobile M 375px*/
+@media screen and (max-width: 375px) {
+
+    .logo {
+        width: 300px;
+    }
+    
+ /*First Page start*/
+/*Bg image*/
+
+.container {
+    height: 50vh;
+    background: url(./bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    
+}   
+    
+
+.container h3{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container p2{
+    color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+
+.learnmore {
+    padding: 5px 20px;
+    background-color: blanchedalmond;
+    border: none;
+    outline: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    top: 70%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.learnmore:hover{
+    background-color: rgb(148, 148, 148);
+   }
+
+
+
+
+   
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
+
+
+ 
+/*3rd Page Start*/
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container3Divs {
+    margin: 3% 2%;
+    display: flex;
+    justify-content: center;
+    width:30%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.container3Text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.container3Text > p2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.containerPngs  img{
+    margin-left: 35%;
+     width: 10vw;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+
+
+.containerPngText {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.containerPngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.containerPngText > p2{
+    font-size: 2vw;
+    font-weight: 1000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+   /*4rth page start*/
+.bg2 {
+    width: 100%;
+    height: 70vh;
+    background: url(./bg/bg\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.bgtext2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgtext2 > h3 {
+    margin-top: 20%;
+    color: white;
+    font-size: 6vw;
+    font-weight: 1000;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2 > p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn:hover{
+    background-color: rgba(223, 211, 211, 0.349);
+    color: white;
+}
+
+
+
+/*Number Counting*/
+.ContainerForCounter {
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter  {
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+}
+
+.textforCounter {
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+  /*5th Page start*/
+
+/*texting front portfolio*/
+/*Upper wali side*/
+.textforPortfolio {
+    padding-top: 5%;
+    background-color: rgb(216, 216, 206);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+.textforPortfolio > h2 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 3vw;
+}
+
+.textforPortfolio > p2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+/*Main container*/
+.container-5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container5Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: 1px solid rgba(196, 185, 185, 0.842);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.container5Divs:hover{
+    transform: translate(0%,-5%);
+    box-shadow: 4px 4px 40px 10px rgba(141, 137, 137, 0.795);
+}
+
+.container5Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.container5Text > p2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.container5Pngs > img{
+     width: 100%;
+}
+
+.container5PngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.container5PngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.container5PngText > p2{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.container5btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btnstyleContainer5{
+    display: flex;
+    justify-content: center;
+    padding: 3px 5px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnstyleContainer5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+/*6th Page start*/
+.containerContact {
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #073652;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding-bottom: 10% !important;
+}
+
+
+
+.textPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.textPortfolio > h2 {
+    position: relative;
+    color: white;
+    font-size: 5vw;
+    margin-top: 15%;
+}
+
+
+.Formsubscribe {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    position: relative; 
+    top: -20%;
+    width: 100%;
+}
+
+.formTextSubs {
+    background-color: rgba(238, 222, 222, 0.986);
+    position:absolute;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.formSubsBtn {
+    position: absolute;
+    right: 6%;
+    padding: 10px 10px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.formSubsBtn:hover{
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.Containerfooter{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50vh;
+    background-color: #202020;
+}
+
+.logoandInformation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.logoandInformation p2 {
+    position: relative;
+    top: -5%;
+    width: 80%;
+    padding-left: 8%;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+.logoandInformation  img {
+    position: relative;
+    top: -18%;
+    width: 100px;
+}
+
+
+.logoandInformation h3{
+    color: white;
+    font-size: 2.5vw;
+}
+
+
+.logoandInformation a{
+    width: 70%;
+    color: white;
+    font-size: 2vw;
+    padding: 4% 0%;
+    transition: 0.2s all;
+
+}
+
+.logoandInformation a:hover{
+    color: rgba(248, 248, 70, 0.774);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+/* .socialElement a{
+    display: flex;
+    flex-direction: row;
+} */
+
+.socialElement a {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+    font-size: 2vw;
+}
+
+/*social links color dif*/
+
+/*Facebook*/
+.socialElement .facebook{
+     background-color:  #3B5998;
+}
+
+.socialElement .facebook:hover{
+    background-color: white;
+    color: #3B5998;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+
+/*Pinterest*/
+.socialElement .pinterest{
+    background-color: #DD4B39;
+}
+
+.socialElement .pinterest:hover{
+    background-color: white;
+    color: #DD4B39 !important;
+}
+
+
+/*Linkedin*/
+.socialElement .linkedin{
+    background-color: #007BB5;
+}
+
+.socialElement .linkedin:hover{
+    background-color: white;
+    color: #007BB5;
+}
+
+
+.socialElement p1{
+    padding-right: 10%;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio page start 2nd Seperate*/
+.bannerPortfolio {
+    position: relative;
+}
+
+
+.bannerPortfolio img {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-size: 100%;
+    filter: brightness(50%);
+}
+
+.bannerPortfolioText {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bannerPortfolioText h3{
+    position: relative;
+    color: white;
+    font-size: 6vw;
+}
+
+.addressForBannerPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.addressForBannerPortfolio a{
+    position: relative;
+    font-size: 3vw;
+    color: white;
+}
+
+.addressForBannerPortfolio p2{
+    position: relative;
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+
+
+
+
+/*selector menu ul*/
+.selector {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.selector ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.selector ul li{
+    margin: 0px 5px;
+}
+
+.selector ul li a{
+    font-size: 1.8vw;
+    padding: 6px 8px;
+    background-color: #c4bdbdbb;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.selector ul li a:hover{
+    color: white;
+    background-color: #202020;
+}
+
+.selector ul li .activeMenu {
+    color: white;
+    background-color: #202020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact page start*/
+/*contact form*/
+.containerContact2 {
+    position: relative;
+    margin-top:-1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    padding-bottom: 20%;
+  }
+  
+  
+  .ContactHeadingtext{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 5%;
+  }
+  
+  .ContactHeadingtext h3{
+      color: black;
+      font-weight: bold;
+      font-size: 4vw;
+  }
+  
+  
+  .contactDiv {
+      margin-top: -20%;
+      position: relative;
+      width: 40%;
+      height: 60vh;
+      padding: 100px 0px;
+  }
+  
+  
+  
+  .contactDefault {
+      position: relative;
+      width: 80%;
+      padding: 10px 0px;
+      margin: 10px 20px;
+      color: white;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(116, 113, 113, 0.432);
+      transition: 0.3s;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .contactDefault:focus{
+      border-radius: 5px;
+      background-color: rgba(209, 209, 209, 0.904);
+      border: 1px solid black;
+  }
+  
+  .textarea {
+      margin: 10px 20px;
+      width: 80%;
+      height: 20vh;
+      font-weight: bold;
+      border: 1px solid rgba(116, 113, 113, 0.432);
+      border-radius: 10px;
+  }
+  
+  .textarea:focus{
+      border: 1px solid black;
+      background-color: rgba(209, 209, 209, 0.904);
+  }
+  
+  .contactBtnForm {
+      margin: 10px 20px;
+      padding: 10px 30px;
+      background-color: #ff8c00;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size:2.5vw;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  
+  .contactBtnForm:hover {
+      background-color: #000000;
+      font-weight: bold;
+  }
+
+
+
+    
+/*2nd div setting*/
+
+.contactDiv h4{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.contactDiv p2{
+    color: black;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive for Mobile S 320px*/
+@media screen and (max-width:320px) {
+
+    .logo {
+        position: relative;
+        width: 250px;
+    }
+
+  /*First Page start*/
+/*Bg image*/
+
+.container {
+    height: 50vh;
+    background: url(./bg/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    
+}   
+    
+
+.container h3{
+    color: white;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container p2{
+    color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+
+}
+
+.learnmore {
+    padding: 5px 10px;
+    background-color: blanchedalmond;
+    border: none;
+    outline: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s all;
+    position: relative;
+    top: 70%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.learnmore:hover{
+    background-color: rgb(148, 148, 148);
+   }
+
+
+   
+/*2nd Page start*/
+
+/*Container-2 page*/
+.container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: rgba(216, 216, 124, 0.747);
+    height: auto !important;
+}
+
+.container2Divs {
+    overflow: hidden;
+    width: 50%;
+}
+
+.container2Divs > img{
+    margin-top: 10%;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.container2Divs > h2{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+     margin-top: 10%;
+     font-weight: bold;
+     text-align: center;
+}
+
+.container2Divs > p2{
+    margin-top: 3%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
+
+
+
+
+/*3rd Page Start*/
+.container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container3Divs {
+    margin: 3% 2%;
+    display: flex;
+    justify-content: center;
+    width:30%;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.container3Text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container3Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.container3Text > p2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.containerPngs  img{
+    margin-left: 35%;
+     width: 10vw;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+
+
+.containerPngText {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.containerPngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.containerPngText > p2{
+    color: black;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+
+
+    
+   /*4rth page start*/
+.bg2 {
+    width: 100%;
+    height: 90vh;
+    background: url(./bg/bg\(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;  
+}
+
+.bgtext2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgtext2 > h3 {
+    margin-top: 20%;
+    color: white;
+    font-size: 6vw;
+    font-weight: 1000;
+}
+
+.bgtext2 > p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.bgtext2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bgtext2Btn:hover{
+    background-color: rgba(223, 211, 211, 0.349);
+    color: white;
+}
+
+
+
+/*Number Counting*/
+.ContainerForCounter {
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.counter  {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+.textforCounter {
+    width: 25%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+  /*5th Page start*/
+
+/*texting front portfolio*/
+/*Upper wali side*/
+.textforPortfolio {
+    padding-top: 5%;
+    background-color: rgb(216, 216, 206);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    flex-direction: column;
+}
+
+.textforPortfolio > h2 {
+    text-align: center;
+    font-weight: 1000;
+    color: black;
+    font-size: 3vw;
+}
+
+.textforPortfolio > p2 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+/*Main container*/
+.container-5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(230, 230, 230, 0.747);
+    height: auto !important;
+}
+
+.container5Divs {
+    margin: 0% 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    transition: 0.5s all;
+    border: 1px solid rgba(196, 185, 185, 0.842);
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 3%;
+}
+
+.container5Divs:hover{
+    transform: translate(0%,-5%);
+    box-shadow: 4px 4px 40px 10px rgba(141, 137, 137, 0.795);
+}
+
+.container5Text {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container5Text >h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.container5Text > p2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #267DF4;
+    width: 5%;
+    margin-top: 3%;
+    margin-left: 48%;
+}
+
+
+.container5Pngs > img{
+     width: 100%;
+}
+
+.container5PngText {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+}
+
+.container5PngText  > h4{
+    color: black;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.container5PngText > p2{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.container5btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.btnstyleContainer5{
+    display: flex;
+    justify-content: center;
+    padding: 3px 5px;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnstyleContainer5:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+/*6th Page start*/
+.containerContact {
+    margin-top: 10%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#073652;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding-bottom: 10% !important;
+}
+
+
+
+.textPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.textPortfolio > h2 {
+    position: relative;
+    color: white;
+    margin-top: 20%;
+    font-size: 5vw;
+}
+
+
+.Formsubscribe {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    position: relative; 
+    top: -20%;
+    width: 100%;
+}
+
+.formTextSubs {
+    background-color: rgba(238, 222, 222, 0.986);
+    position:absolute;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.formSubsBtn {
+    position: absolute;
+    right: 6%;
+    padding: 10px 10px;
+    background-color: #ff8c00;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.formSubsBtn:hover{
+    background-color: #000000;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.Containerfooter{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50vh;
+    background-color: #202020;
+}
+
+.logoandInformation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    text-align: start;
+    flex-direction: column;
+}
+
+.logoandInformation p2 {
+    position: relative;
+    top: -5%;
+    width: 80%;
+    padding-left: 8%;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+.logoandInformation  img {
+    position: relative;
+    top: -18%;
+    width: 100px;
+}
+
+
+.logoandInformation h3{
+    color: white;
+    font-size: 2.5vw;
+}
+
+
+.logoandInformation a{
+    width: 70%;
+    color: white;
+    font-size: 2vw;
+    padding: 4% 0%;
+    transition: 0.2s all;
+
+}
+
+.logoandInformation a:hover{
+    color: rgba(248, 248, 70, 0.774);
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 30px;
+}
+
+/* .socialElement a{
+    display: flex;
+    flex-direction: row;
+} */
+
+.socialElement a {
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s all;
+    font-size: 2vw;
+}
+
+/*social links color dif*/
+
+/*Facebook*/
+.socialElement .facebook{
+     background-color:  #3B5998;
+}
+
+.socialElement .facebook:hover{
+    background-color: white;
+    color: #3B5998;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+/*Twitter*/
+.socialElement .twitter{
+    background-color: #55ACEE;
+}
+
+.socialElement .twitter:hover{
+    background-color: white;
+    color: #55ACEE;
+}
+
+
+/*Pinterest*/
+.socialElement .pinterest{
+    background-color: #DD4B39;
+}
+
+.socialElement .pinterest:hover{
+    background-color: white;
+    color: #DD4B39 !important;
+}
+
+
+/*Linkedin*/
+.socialElement .linkedin{
+    background-color: #007BB5;
+}
+
+.socialElement .linkedin:hover{
+    background-color: white;
+    color: #007BB5;
+}
+
+
+
+
+.socialElement p1{
+    padding-right: 10%;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Portfolio page start 2nd Seperate*/
+.bannerPortfolio {
+    position: relative;
+}
+
+
+.bannerPortfolio img {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-size: 100%;
+    filter: brightness(50%);
+}
+
+.bannerPortfolioText {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bannerPortfolioText h3{
+    position: relative;
+    color: white;
+    font-size: 6vw;
+}
+
+.addressForBannerPortfolio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.addressForBannerPortfolio a{
+    position: relative;
+    font-size: 3vw;
+    color: white;
+}
+
+.addressForBannerPortfolio p2{
+    position: relative;
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+
+
+
+
+/*selector menu ul*/
+.selector {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.selector ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.selector ul li{
+    margin: 0px 5px;
+}
+
+.selector ul li a{
+    font-size: 1.5vw;
+    padding: 6px 8px;
+    background-color: #c4bdbdbb;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.4s all;
+}
+
+.selector ul li a:hover{
+    color: white;
+    background-color: #202020;
+}
+
+.selector ul li .activeMenu {
+    color: white;
+    background-color: #202020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact page start*/
+/*contact form*/
+.containerContact2 {
+    position: relative;
+    margin-top:-1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+  }
+  
+  
+  .ContactHeadingtext{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 5%;
+  }
+  
+  .ContactHeadingtext h3{
+      color: black;
+      font-weight: bold;
+      font-size: 3vw;
+  }
+  
+  
+  .contactDiv {
+      margin-top: -30%;
+      position: relative;
+      width: 40%;
+      height: 60vh;
+      padding: 100px 0px;
+  }
+  
+  
+  
+  .contactDefault {
+      position: relative;
+      width: 80%;
+      padding: 10px 0px;
+      margin: 10px 20px;
+      color: white;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid rgba(116, 113, 113, 0.432);
+      transition: 0.3s;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .contactDefault:focus{
+      border-radius: 5px;
+      background-color: rgba(209, 209, 209, 0.904);
+      border: 1px solid black;
+  }
+  
+  .textarea {
+      margin: 10px 20px;
+      width: 80%;
+      height: 20vh;
+      font-weight: bold;
+      border: 1px solid rgba(116, 113, 113, 0.432);
+      border-radius: 10px;
+  }
+  
+  .textarea:focus{
+      border: 1px solid black;
+      background-color: rgba(209, 209, 209, 0.904);
+  }
+  
+  .contactBtnForm {
+      margin: 5px 20px;
+      padding: 10px 30px;
+      background-color: #ff8c00;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size:2.5vw;
+      border-radius: 20px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  
+  .contactBtnForm:hover {
+      background-color: #000000;
+      font-weight: bold;
+  }
+
+
+/*2nd div setting*/
+  .contactDiv h4{
+    margin-top: 10%;
+    color: black;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.contactDiv p2{
+    color: black;
+    font-weight: bolder;
+    font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+/*About Osama page start*/
+.osamaContainer {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.osamaElement {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.osamaElement h2 {
+   margin-top: 4%;
+   position: relative;
+   font-size: 5vw !important;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+}
+
+.osamaElement p{
+    margin-top: 5%;
+    position: relative;
+    text-align: center;
+    font-size: 3vw !important;
+    font-weight: 800;
+    color: black;
+}
+
+.osamaImg {
+    display: flex;
+    justify-content: center;
+}
+
+.osamaImg > img{
+    margin-top: 5%;
+    width:50%;
+}
+
+
+
+
+    }
